@@ -1,0 +1,11 @@
+disabled_rules:
+  - trailing_whitespace
+excluded:
+  - DerivedData
+line_length:
+  warning: 120
+  error: 160
+  ignores_urls: true
+identifier_name:
+  min_length:
+    warning: 2

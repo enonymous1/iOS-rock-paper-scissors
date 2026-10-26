@@ -1,0 +1,60 @@
+# Xcode build products and derived data
+build/
+DerivedData/
+*.build/
+*.app
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Xcode user-specific settings and workspace state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager checkouts and build data
+.build/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane and generated reports
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.mobileprovision
+*.p12
+*.cer
+
+# macOS and editor metadata
+.DS_Store
+.vscode/
+# Archives, installer artifacts, and local metadata (from v1's gitignore)
+*.xcarchive/
+*.zip
+*.pkg
+*.dmg
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+*.local
+*.log
+*.tmp
+*.swp
